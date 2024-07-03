@@ -36,9 +36,9 @@ svg {
   color: currentColor;
 }
 
-body {
-  font-family: Poppins; 
+body { 
  line-height: normal;
+ font-family: Poppins;
  background-color: #283036;
 }
 
@@ -109,7 +109,7 @@ color:  rgba(255, 255, 255, 0.55);
     background: #FF6E30;
 }
 
-/* ============mask-group=========== */
+/* ============mask-group================== */
 
 .mask-group{
   margin-bottom: 200px;
@@ -175,9 +175,7 @@ margin-bottom: 60px;
 .mask-group-bunner-input {
   width: 70%;
   color: rgba(255, 255, 255, 0.38);
-  font-family: Poppins;
   font-size: 14px;
-  font-style: normal;
   font-weight: 400;
   line-height: normal;
   background-color: #283036;
@@ -188,7 +186,6 @@ margin-bottom: 60px;
 
 .mask-group-bunner-btn {
   color: #fff;
-  font-family: Poppins;
   font-size: 16px;
   font-weight: 600;
   line-height: normal;
@@ -212,25 +209,33 @@ margin-bottom: 60px;
   fill: #FFFFFFC7;
 }
 
-/* ==============popular============== */
+/* ==============popular============= */
 
 .popular{
   margin-bottom: 200px;
 }
 
-.popular svg{
-  fill: #FFFFFF;
+
+  .popular-icon{
+display: inline-block;
+
 }
 
 .popular-list{
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
+  gap: 100px 24px;
 }
 
 .popular-item{
   width: calc((100% - 2 * 24px) / 3);
-margin-bottom: 117px;
+  padding: 33px;
+}
+
+.card-heading{
+display: flex;
+column-gap: 30px;
+margin-bottom: 30px;
 }
 
 .popular-title{
@@ -252,11 +257,10 @@ margin-bottom: 90px;
 
 .popular-title-item{
   color: rgba(255, 255, 255, 0.78);
-  font-family: Poppins;
   font-size: 24px;
-  font-style: normal;
   font-weight: 500;
   line-height: normal;
+margin-bottom: 3px;
 }
 
 .popular-sutitle-item{
@@ -271,7 +275,31 @@ line-height: normal;
 .popular-text-item{color: rgba(255, 255, 255, 0.55);
 font-size: 16px;
 font-weight: 400;
-line-height: 1.87; /}
+line-height: 1.87; 
+margin-bottom: 30px;
+}
+
+.popular-card-footer{
+  display: flex;
+  align-items: center;
+  column-gap: 12px;
+}
+
+.popular-card-icon-heart{
+  padding: 7px;
+  border-radius: 7px;
+}
+.popular-card-icon-heart:hover{
+  background-color: #283036;
+
+  box-shadow: 0px 5px 10px -3px #12121226;
+
+}
+
+.popular-card-icon-folder{
+padding: 7px;
+border-radius: 7px;
+}
 
 .popular-button-item{
   border-radius: 8px;
@@ -344,9 +372,7 @@ line-height: 130%; /* 62.4px */
 
 .newcomer-para{
   color: rgba(255, 255, 255, 0.55);
-  font-family: Poppins;
   font-size: 18px;
-  font-style: normal;
   font-weight: 500;
   line-height: 30px; /* 166.667% */
 }
@@ -373,18 +399,14 @@ line-height: normal;
 
 .newcomer-item-title{
   color: rgba(255, 255, 255, 0.78);
-  font-family: Poppins;
   font-size: 24px;
-  font-style: normal;
   font-weight: 500;
   line-height: normal;
 }
 
 .newcomer-item-sutitle{
   color: rgba(255, 165, 55, 0.55);
-  font-family: Poppins;
   font-size: 18px;
-  font-style: normal;
   font-weight: 400;
   line-height: normal;
 }
