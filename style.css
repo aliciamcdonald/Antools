@@ -235,6 +235,15 @@ outline: transparent;
   backdrop-filter: blur(25px);
 }
 
+.popular-item:hover .popular-item-img{
+  background-color:#f7743b8c;
+}
+
+.popular-item-img {
+  padding: 10px;
+  border-radius: 7px;
+
+}
 
 .card-heading {
   display: flex;
@@ -407,7 +416,7 @@ margin: 0 auto;
 .newcomer {
   display: flex;
   gap: 232px;
-
+margin-bottom: 195px;
 }
 
 .div{
@@ -512,3 +521,82 @@ margin: 0 auto;
   font-weight: 600;
   line-height: normal;
 }
+
+/* ===========testimonial=========== */
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+  }
+
+
+  .testimonial-list{
+ }
+
+  .testimonial-item{
+    display: flex;
+    justify-content: space-around; 
+    bottom: 500px;
+  }
+
+.testimonial-wrap-img{
+  background-image: url(./img/bg-img.png);
+ background-repeat: no-repeat;
+ background-position: center;
+ text-align: center;
+ position: relative;
+}
+ 
+.testimonial-wrap-description{
+  border-radius: 8px;
+border: 1px solid rgba(255, 255, 255, 0.10);
+background: rgba(40, 48, 54, 0.20);
+backdrop-filter: blur(25px);
+width: 265px;
+height: 91px;
+flex-shrink: 0;
+background-image: url(./img/Rectangle\ 327.jpg);
+position: absolute;
+bottom: 29px;
+right: 4px;
+padding-top: 10px;
+padding-bottom: 16px;
+background-size: cover;
+}
+
+.testimonial-wrap-description-title{
+  color: rgba(255, 253, 253, 0.78);
+  font-size: 26px;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.39px;
+
+}
+
+.testimonial-wrap-description-text{
+  color: rgba(255, 253, 253, 0.55);
+font-size: 16px;
+font-weight: 400;
+line-height: normal;
+}
+
+.testimonial-wrap-text{
+  color: rgba(255, 255, 255, 0.78);
+font-family: Roboto;
+font-size: 14px;
+font-weight: 400;
+line-height: 30px; /* 214.286% */
+letter-spacing: 0.21px;
+width: 510px;
+padding-top: 128px;
+}
+
+
+
+/* ===========join================== */
