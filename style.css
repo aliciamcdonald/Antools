@@ -537,7 +537,6 @@ input[type="checkbox"]:checked + svg {
 .testimonial-item {
   display: flex;
   justify-content: space-around;
-  /* bottom: 500px; */
 }
 
 .testimonial-wrap-img {
