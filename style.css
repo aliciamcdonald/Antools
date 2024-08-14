@@ -612,6 +612,14 @@ input[type="checkbox"]:checked + svg {
   -webkit-text-fill-color: transparent;
 }
 
+/* ====styles slider===== */
+
+.splide__arrow svg{
+  fill: rgba(255, 255, 255, 0.31);
+ width: 48px;
+ height: 48px;
+}
+
 /* .testimonial-text-mark {
   position: absolute;
   top: 23px;
