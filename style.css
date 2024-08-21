@@ -614,10 +614,36 @@ input[type="checkbox"]:checked + svg {
 
 /* ====styles slider===== */
 
-.splide__arrow svg{
+.splide__arrow svg {
   fill: rgba(255, 255, 255, 0.31);
- width: 48px;
- height: 48px;
+  width: 48px;
+  height: 48px;
+}
+
+.splide__arrow {
+  background-color: transparent;
+}
+
+.splide__arrow--next:hover > svg,
+.splide__arrow--prev:hover > svg {
+  fill: #ff6e30;
+}
+
+.splide__pagination {
+  bottom: -2.5em;
+}
+.splide__pagination__page {
+  width: 44px;
+  height: 8px;
+  border: 1px solid #000;
+  border-radius: 4px;
+  margin: 9px;
+}
+
+.splide__pagination__page.is-active {
+  background: #ff6e30;
+  transform: scale(1);
+  opacity: 1;
 }
 
 /* .testimonial-text-mark {
