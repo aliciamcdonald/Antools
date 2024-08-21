@@ -520,6 +520,10 @@ input[type="checkbox"]:checked + svg {
 
 /* ===========testimonial=========== */
 
+.testimonial{
+  margin-bottom: 250px;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -640,3 +644,41 @@ input[type="checkbox"]:checked + svg {
 } */
 
 /* ===========join================== */
+
+.join{}
+
+.join-title{
+  color: rgba(255, 255, 255, 0.90);
+text-align: center;
+font-size: 48px;
+font-style: normal;
+font-weight: 500;
+line-height: 130%; /* 62.4px */
+margin-bottom: 25px;
+}
+
+.join-paragraph{
+  color: rgba(255, 255, 255, 0.55);
+text-align: center;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 30px; /* 166.667% */
+}
+
+.join-bunner-form{}
+
+.join-bunner-input-wrap{
+position: relative;
+display: flex;
+align-items: center;
+justify-content: space-between;
+width: 500px;
+border-radius: 15px;
+border: 1.5px solid rgba(255, 255, 255, 0.1);
+background-color: #283036;
+padding-left: 55px;
+padding-top: 8px;
+padding-bottom: 8px;
+padding-right: 11px
+}
