@@ -1,0 +1,129 @@
+.testimonial {
+    margin-bottom: 250px;
+  }
+  
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    clip: rect(0 0 0 0);
+  }
+  
+  .testimonial-list {
+  }
+  
+  .testimonial-item {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .testimonial-wrap-img {
+    background-image: url(./img/bg-img.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    position: relative;
+  }
+  
+  .testimonial-wrap-description {
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: rgba(40, 48, 54, 0.2);
+    backdrop-filter: blur(25px);
+    width: 265px;
+    height: 91px;
+    flex-shrink: 0;
+    background-image: url(./img/Rectangle\ 327.jpg);
+    position: absolute;
+    bottom: 29px;
+    right: 4px;
+    padding-top: 10px;
+    padding-bottom: 16px;
+    background-size: cover;
+  }
+  
+  .testimonial-wrap-description-title {
+    color: rgba(255, 253, 253, 0.78);
+    font-size: 26px;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.39px;
+  }
+  
+  .testimonial-wrap-description-text {
+    color: rgba(255, 253, 253, 0.55);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+  }
+  
+  .testimonial-wrap-text {
+    color: rgba(255, 255, 255, 0.78);
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px; /* 214.286% */
+    letter-spacing: 0.21px;
+    width: 510px;
+    padding-top: 128px;
+    position: relative;
+  }
+  
+  .testimonial-wrap-text::before {
+    content: "“";
+    display: block;
+    position: absolute;
+    top: 23px;
+    left: -70px;
+    transform: rotate(19deg);
+    font-family: Lora;
+    font-size: 250px;
+    font-weight: 500;
+    line-height: 320px;
+    text-align: left;
+    background: linear-gradient(
+      188.88deg,
+      rgba(252, 252, 252, 0) 20.34%,
+      rgba(255, 255, 255, 0.5) 155.72%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  /* ====styles slider===== */
+  
+  .splide__arrow svg {
+    fill: rgba(255, 255, 255, 0.31);
+    width: 48px;
+    height: 48px;
+  }
+  
+  .splide__arrow {
+    background-color: transparent;
+  }
+  
+  .splide__arrow--next:hover > svg,
+  .splide__arrow--prev:hover > svg {
+    fill: #ff6e30;
+  }
+  
+  .splide__pagination {
+    bottom: -2.5em;
+  }
+  .splide__pagination__page {
+    width: 44px;
+    height: 8px;
+    border: 1px solid #000;
+    border-radius: 4px;
+    margin: 9px;
+  }
+  
+  .splide__pagination__page.is-active {
+    background: #ff6e30;
+    transform: scale(1);
+    opacity: 1;
+  }
