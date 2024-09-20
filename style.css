@@ -102,6 +102,23 @@ img {
   color: #ff6e30;
 }
 
+select[name="select"] {
+  color: #ffffff8c;
+  font-size: 16px;
+  font-weight: 500;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  appearance: none;
+}
+
+select[name="select"]:hover {
+  color: #ff6e30;
+}
+option[value] {
+  background-color: #283036;
+}
+
 .reg-list {
   display: flex;
 }
@@ -113,11 +130,11 @@ img {
   background-color: transparent;
   border: none;
   color: rgba(255, 255, 255, 0.55);
-}
 
-.reg-btn:hover {
-  color: #fdf5ff;
-  background: #ff6e30;
+  &:hover {
+    color: #fdf5ff;
+    background: #ff6e30;
+  }
 }
 
 /* ============mask-group================== */
@@ -162,23 +179,28 @@ img {
   border-radius: 15px;
   border: 1.5px solid rgba(255, 255, 255, 0.1);
   background-color: #283036;
-  padding-left: 55px;
+  padding-left: 20px;
   padding-top: 8px;
   padding-bottom: 8px;
   padding-right: 11px;
+  fill: #ffffff61;
+}
+
+.mask-group-bunner-input-wrap > svg {
+  margin-right: 14px;
 }
 
 .mask-group-bunner-input-wrap::before {
-  content: ""; /*\1F50D*/
+  /* content: ""; 
   position: absolute;
   width: 24px;
   height: 24px;
   display: block;
   top: 20px;
   left: 18px;
-  background-color: transparent;
-  color: #ffffff61;
-  background-image: url();
+  background-color: transparent; */
+  /* fill: #ffffff61; */
+  /* background-image: url(); */
 }
 
 .mask-group-bunner-input {
