@@ -60,6 +60,16 @@ img {
   width: 1224px;
 }
 
+.join-bunner-btn, .mask-group-bunner-btn {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  padding: 12px 36px;
+  border-radius: 8px;
+  background-color: #ff6e30;
+}
+
 .header {
   color: rgba(255, 255, 255, 0.55);
   font-size: 16px;
@@ -189,7 +199,7 @@ img {
   background-image: url();
 }
 
-.mask-group-bunner-input {
+.mask-group-bunner-input, .join-bunner-input {
   width: 70%;
   color: rgba(255, 255, 255, 0.38);
   font-size: 14px;
@@ -198,16 +208,6 @@ img {
   background-color: #283036;
   border: none;
   outline: none;
-}
-
-.mask-group-bunner-btn {
-  color: #fff;
-  font-size: 16px;
-  font-weight: 600;
-  line-height: normal;
-  padding: 12px 36px;
-  border-radius: 8px;
-  background-color: #ff6e30;
 }
 
 .mask-group-social {
@@ -435,7 +435,7 @@ input[type=checkbox]:checked + svg {
 }
 
 .newcomer-title {
-  color: rgba(255, 255, 255, 0.9);
+  color: rgba(255, 255, 255, 0.9019607843);
   font-size: 48px;
   font-weight: 500;
   line-height: 130%; /* 62.4px */
@@ -444,7 +444,7 @@ input[type=checkbox]:checked + svg {
 }
 
 .newcomer-para {
-  color: rgba(255, 255, 255, 0.55);
+  color: rgba(255, 255, 255, 0.5490196078);
   font-size: 18px;
   font-weight: 500;
   line-height: 30px; /* 166.667% */
@@ -496,21 +496,21 @@ input[type=checkbox]:checked + svg {
 }
 
 .newcomer-item-title {
-  color: rgba(255, 255, 255, 0.78);
+  color: rgba(255, 255, 255, 0.7803921569);
   font-size: 24px;
   font-weight: 500;
   line-height: normal;
 }
 
 .newcomer-item-sutitle {
-  color: rgba(255, 165, 55, 0.55);
+  color: rgba(255, 255, 255, 0.5490196078);
   font-size: 18px;
   font-weight: 400;
   line-height: normal;
 }
 
 .newcomer-item-para {
-  color: rgba(255, 255, 255, 0.55);
+  color: rgba(255, 255, 255, 0.5490196078);
   font-family: Poppins;
   font-size: 14px;
   font-style: normal;
@@ -519,7 +519,7 @@ input[type=checkbox]:checked + svg {
 }
 
 .newcomer-item-btn {
-  color: rgba(255, 255, 255, 0.55);
+  color: rgba(255, 255, 255, 0.5490196078);
   font-family: Poppins;
   font-size: 16px;
   font-style: normal;
@@ -565,6 +565,10 @@ input[type=checkbox]:checked + svg {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-right: 11px;
+}
+
+.join-bunner-btn {
+  color: green;
 }
 
 .testimonial {

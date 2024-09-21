@@ -8,7 +8,7 @@
 }
 
 .newcomer-title {
-  color: rgba(255, 255, 255, 0.9);
+  color: $titleColorPrimary;
   font-size: 48px;
   font-weight: 500;
   line-height: 130%; /* 62.4px */
@@ -17,7 +17,7 @@
 }
 
 .newcomer-para {
-  color: rgba(255, 255, 255, 0.55);
+  color: $textColorPrimary;
   font-size: 18px;
   font-weight: 500;
   line-height: 30px; /* 166.667% */
@@ -68,21 +68,21 @@
 }
 
 .newcomer-item-title {
-  color: rgba(255, 255, 255, 0.78);
+  color: $titleColorSecondary;
   font-size: 24px;
   font-weight: 500;
   line-height: normal;
 }
 
 .newcomer-item-sutitle {
-  color: rgba(255, 165, 55, 0.55);
+  color: $textColorPrimary;
   font-size: 18px;
   font-weight: 400;
   line-height: normal;
 }
 
 .newcomer-item-para {
-  color: rgba(255, 255, 255, 0.55);
+  color: $textColorPrimary;
   font-family: Poppins;
   font-size: 14px;
   font-style: normal;
@@ -97,9 +97,9 @@
 }
 
 .newcomer-item-btn {
-  color: rgba(255, 255, 255, 0.55);
+  color: $textColorPrimary;
   font-family: Poppins;
-  font-size: 16px;
+  font-size: $textFontSizePrimary;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
