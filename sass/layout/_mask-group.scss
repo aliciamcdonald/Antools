@@ -88,7 +88,11 @@
     padding: 12px;
   }
   
-  .mask-group-social-item svg {
+  .mask-group-social-item-svg {
     fill: #ffffffc7;
+
+   &:hover (
+    color: #ff6e30 ;
+  )
   }
   
