@@ -180,7 +180,7 @@ img {
   border-radius: 15px;
   border: 1.5px solid rgba(255, 255, 255, 0.1);
   background-color: #283036;
-  padding-left: 55px;
+  padding-left: 20px;
   padding-top: 8px;
   padding-bottom: 8px;
   padding-right: 11px;
@@ -197,6 +197,11 @@ img {
   background-color: transparent;
   color: rgba(255, 255, 255, 0.3803921569);
   background-image: url();
+}
+
+.mask-group-bunner-svg {
+  fill: rgba(255, 255, 255, 0.3803921569);
+  margin-right: 14px;
 }
 
 .mask-group-bunner-input, .join-bunner-input {
@@ -222,6 +227,9 @@ img {
 
 .mask-group-social-item svg {
   fill: rgba(255, 255, 255, 0.7803921569);
+}
+.mask-group-social-item svg:hover {
+  color: #ff6e30;
 }
 
 .popular {
