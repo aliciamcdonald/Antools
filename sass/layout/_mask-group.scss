@@ -1,98 +1,91 @@
 .mask-group {
-    margin-bottom: 200px;
-    background-image: url(./img/bg-mask-grou.png);
-    background-repeat: no-repeat;
-    background-position: right;
-    padding-top: 48px;
-  }
-  .mask-group-title {
-    color: rgba(255, 255, 255, 0.9);
-    font-size: 50px;
-    font-weight: 500;
-    width: 600px;
-    margin-bottom: 30px;
-  }
-  
-  .mask-group-title > span {
-    color: #ff6e30;
-  }
-  
-  .mask-group-su-title {
-    color: rgba(255, 255, 255, 0.55);
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 1.66;
-    width: 487px;
-    margin-bottom: 60px;
-  }
-  
-  .mask-group-bunner-form {
-    margin-bottom: 110px;
-  }
-  .mask-group-bunner-input-wrap {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 500px;
-    border-radius: 15px;
-    border: 1.5px solid rgba(255, 255, 255, 0.1);
-    background-color: #283036;
-    padding-left: 55px;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    padding-right: 11px;
-  }
-  
-  .mask-group-bunner-input-wrap::before {
-    content: ""; /*\1F50D*/
-    position: absolute;
-    width: 24px;
-    height: 24px;
-    display: block;
-    top: 20px;
-    left: 18px;
-    background-color: transparent;
-    color: #ffffff61;
-    background-image: url();
-  }
-  
-  .mask-group-bunner-input {
-    width: 70%;
-    color: rgba(255, 255, 255, 0.38);
-    font-size: 14px;
-    font-weight: 400;
-    line-height: normal;
-    background-color: #283036;
-    border: none;
-    outline: none;
-  }
-  
-  .mask-group-bunner-btn {
-    color: #fff;
-    font-size: 16px;
-    font-weight: 600;
-    line-height: normal;
-    padding: 12px 36px;
-    border-radius: 8px;
-    background-color: #ff6e30;
-  }
-  
-  .mask-group-social {
-    display: flex;
-    margin-top: 110px;
-    gap: 10px;
-  }
-  
-  .mask-group-social-item {
-    padding: 12px;
-  }
-  
-  .mask-group-social-item-svg {
-    fill: #ffffffc7;
+  margin-bottom: 200px;
+  background-image: url(./img/bg-mask-grou.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  padding-top: 48px;
+}
+.mask-group-title {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 50px;
+  font-weight: 500;
+  width: 600px;
+  margin-bottom: 30px;
+}
 
-   &:hover (
-    color: #ff6e30 ;
-  )
+.mask-group-title > span {
+  color: $activeColor;
+}
+
+.mask-group-su-title {
+  color: rgba(255, 255, 255, 0.55);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.66;
+  width: 487px;
+  margin-bottom: 60px;
+}
+
+.mask-group-bunner-form {
+  margin-bottom: 110px;
+}
+.mask-group-bunner-input-wrap {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 500px;
+  border-radius: 15px;
+  border: 1.5px solid rgba(255, 255, 255, 0.1);
+  background-color: #283036;
+  padding-left: 55px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 11px;
+}
+
+.mask-group-bunner-input-wrap::before {
+  content: ""; /*\1F50D*/
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  display: block;
+  top: 20px;
+  left: 18px;
+  background-color: transparent;
+  color: #ffffff61;
+  background-image: url();
+}
+
+.mask-group-bunner-input {
+  width: 70%;
+  color: rgba(255, 255, 255, 0.38);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
+  background-color: #283036;
+  border: none;
+  outline: none;
+}
+
+.mask-group-bunner-btn {
+  @extend %button;
+}
+
+.mask-group-social {
+  display: flex;
+  margin-top: 110px;
+  gap: 10px;
+}
+
+.mask-group-social-item {
+  padding: 12px;
+}
+
+
+.mask-group-social-item svg {
+  fill: #ffffffc7;
+  &:hover {
+    color: $activeColor;
   }
-  
+}

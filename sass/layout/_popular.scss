@@ -1,161 +1,160 @@
 .popular {
-    margin-bottom: 200px;
-  }
-  
-  .popular-icon {
-    display: inline-block;
-  }
-  
-  .popular-list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 100px 24px;
-  }
-  
-  .popular-item {
-    width: calc((100% - 2 * 24px) / 3);
-    padding: 33px;
-    outline: transparent;
-    border-radius: 15px;
-    border: transparent;
-  }
-  
-  .popular-item:hover {
-    border-radius: 25px;
-    border: 2px solid rgba(255, 255, 255, 0.05);
-    background-color: rgba(44, 53, 61, 0.2);
-    background-image: url(./img/ellipse.svg);
-    background-repeat: no-repeat;
-    backdrop-filter: blur(25px);
-  }
-  
-  .popular-item:hover .popular-item-img {
-    background-color: #f7743b8c;
-  }
-  
-  .popular-item-img {
-    padding: 10px;
-    border-radius: 7px;
-  }
-  
-  .card-heading {
-    display: flex;
-    column-gap: 30px;
-    margin-bottom: 30px;
-  }
-  
-  .popular-title {
-    color: rgba(255, 255, 255, 0.9);
-    font-size: 48px;
-    font-weight: 500;
-    line-height: 1.3;
-    text-align: center;
-  }
-  
-  .popular-sutitle {
-    color: rgba(255, 255, 255, 0.55);
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 1.66;
-    text-align: center;
-    margin-bottom: 90px;
-  }
-  
-  .popular-title-item {
-    color: rgba(255, 255, 255, 0.78);
-    font-size: 24px;
-    font-weight: 500;
-    line-height: normal;
-    margin-bottom: 3px;
-  }
-  
-  .popular-sutitle-item {
-    color: rgba(255, 165, 55, 0.55);
-    font-family: Poppins;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-  }
-  
-  .popular-text-item {
-    color: rgba(255, 255, 255, 0.55);
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.87;
-    margin-bottom: 30px;
-  }
-  
-  .popular-card-footer {
-    display: flex;
-    align-items: center;
-    column-gap: 12px;
-  }
-  
-  /* ================ стилизация чекбокса ================ */
-  input[type="checkbox"] {
-    /* appearance: none; */
-    display: none;
-    /* margin: 0; */
-  }
-  
-  input[type="checkbox"]:checked + .popular-card-icon-heart {
-    fill: red;
-  }
-  
-  input[type="checkbox"]:checked + svg {
-    fill: rgb(86, 84, 84);
-  }
-  
-  .popular-card-icon-heart {
-    padding: 7px;
-    border-radius: 7px;
-    fill: #ffffff61;
-  }
-  .popular-card-icon-heart:hover {
-    background-color: #283036;
-  
-    box-shadow: 0px 5px 10px -3px #12121226;
-  }
-  
-  .popular-card-icon-folder {
-    padding: 7px;
-    border-radius: 7px;
-    fill: #ffffff61;
-  }
-  
-  .popular-button-item {
-    border-radius: 8px;
-    background-color: transparent;
-    padding: 9px 35px;
-    color: #ff6e30;
-    font-weight: 600;
-    line-height: normal;
-    border: none;
-  }
-  
-  .popular-button-item:hover {
-    color: #fdf5ff;
-    background: #ff6e30;
-  }
-  
-  .popular-loadmore-btn {
-    display: block;
-    border: 1px solid #ffffff1a;
-    border-top-left-radius: 18px;
-    border-bottom-right-radius: 18px;
-    padding: 17px 38px;
-    background-color: #1e252b;
-    background-color: transparent;
-  
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.5;
-    color: #ff6e30;
-    margin: 0 auto;
-  }
-  .popular-loadmore-btn:hover {
-    background-color: #ff6e30;
-    color: #fdf5ff;
-  }
-  
+  margin-bottom: 200px;
+}
+
+.popular-icon {
+  display: inline-block;
+}
+
+.popular-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 100px 24px;
+}
+
+.popular-item {
+  width: calc((100% - 2 * 24px) / 3);
+  padding: 33px;
+  outline: transparent;
+  border-radius: 15px;
+  border: transparent;
+}
+
+.popular-item:hover {
+  border-radius: 25px;
+  border: 2px solid rgba(255, 255, 255, 0.05);
+  background-color: rgba(44, 53, 61, 0.2);
+  background-image: url(./img/ellipse.svg);
+  background-repeat: no-repeat;
+  backdrop-filter: blur(25px);
+}
+
+.popular-item:hover .popular-item-img {
+  background-color: #f7743b8c;
+}
+
+.popular-item-img {
+  padding: 10px;
+  border-radius: 7px;
+}
+
+.card-heading {
+  display: flex;
+  column-gap: 30px;
+  margin-bottom: 30px;
+}
+
+.popular-title {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 1.3;
+  text-align: center;
+}
+
+.popular-sutitle {
+  color: rgba(255, 255, 255, 0.55);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.66;
+  text-align: center;
+  margin-bottom: 90px;
+}
+
+.popular-title-item {
+  color: rgba(255, 255, 255, 0.78);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 3px;
+}
+
+.popular-sutitle-item {
+  color: rgba(255, 165, 55, 0.55);
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.popular-text-item {
+  color: rgba(255, 255, 255, 0.55);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.87;
+  margin-bottom: 30px;
+}
+
+.popular-card-footer {
+  display: flex;
+  align-items: center;
+  column-gap: 12px;
+}
+
+/* ================ стилизация чекбокса ================ */
+input[type="checkbox"] {
+  /* appearance: none; */
+  display: none;
+  /* margin: 0; */
+}
+
+input[type="checkbox"]:checked + .popular-card-icon-heart {
+  fill: red;
+}
+
+input[type="checkbox"]:checked + svg {
+  fill: rgb(86, 84, 84);
+}
+
+.popular-card-icon-heart {
+  padding: 7px;
+  border-radius: 7px;
+  fill: #ffffff61;
+}
+.popular-card-icon-heart:hover {
+  background-color: #283036;
+
+  box-shadow: 0px 5px 10px -3px #12121226;
+}
+
+.popular-card-icon-folder {
+  padding: 7px;
+  border-radius: 7px;
+  fill: #ffffff61;
+}
+
+.popular-button-item {
+  border-radius: 8px;
+  background-color: transparent;
+  padding: 9px 35px;
+  color: $activeColor;
+  font-weight: 600;
+  line-height: normal;
+  border: none;
+}
+
+.popular-button-item:hover {
+  color: #fdf5ff;
+  background: $activeColor;
+}
+
+.popular-loadmore-btn {
+  display: block;
+  border: 1px solid #ffffff1a;
+  border-top-left-radius: 18px;
+  border-bottom-right-radius: 18px;
+  padding: 17px 38px;
+  background-color: #1e252b;
+  background-color: transparent;
+
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.5;
+  color: $activeColor;
+  margin: 0 auto;
+}
+.popular-loadmore-btn:hover {
+  background-color: $activeColor;
+  color: #fdf5ff;
+}

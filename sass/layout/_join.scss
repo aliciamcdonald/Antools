@@ -40,3 +40,12 @@
   padding-bottom: 8px;
   padding-right: 11px;
 }
+
+.join-bunner-input {
+  @extend .mask-group-bunner-input;
+}
+
+.join-bunner-btn {
+  @extend %button;
+  color: green;
+}

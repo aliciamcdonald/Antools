@@ -1,38 +1,72 @@
 .header {
-    color: rgba(255, 255, 255, 0.55);
-    font-size: 16px;
-    font-weight: 500;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  
-    padding-top: 28px;
-    padding-bottom: 28px;
-  }
-  
+  color: rgba(255, 255, 255, 0.55);
+  font-size: 16px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding-top: 28px;
+  padding-bottom: 28px;
+
   .header-logo {
     color: rgba(255, 255, 255, 0.9);
     font-size: 22px;
     font-weight: 600;
   }
-  
+
   .header-logo > svg {
     fill: #ffffff;
     margin-right: 20px;
   }
-  
+
+  .active::after {
+    content: "";
+    display: block;
+    height: 3px;
+    width: 100%;
+    border-radius: 7px;
+    background-color: $activeColor;
+    margin-top: 10px;
+  }
+
   .header-list {
     display: flex;
     gap: 40px;
   }
-  
+
   .header-item {
   }
-  
+
+  .header-item:hover > .header-link {
+    color: $activeColor;
+  }
+
+  select[name="select"] {
+    color: #ffffff8c;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    appearance: none;
+
+    &:hover {
+      color: $activeColor;
+    }
+  }
+
+  // select[name="select"]:hover {
+  //   color: #ff6e30;
+  // }
+  option[value] {
+    background-color: #283036;
+  }
+
   .reg-list {
     display: flex;
   }
-  
+
   .reg-btn {
     font-weight: 600;
     padding: 12px 28px;
@@ -40,9 +74,29 @@
     background-color: transparent;
     border: none;
     color: rgba(255, 255, 255, 0.55);
+
+    &:hover {
+      color: #fdf5ff;
+      background: $activeColor;
+    }
   }
-  
-  .reg-btn:hover {
-    color: #fdf5ff;
-    background: #ff6e30;
-  }
+}
+
+// .header {
+//   .header-logo {
+//   }
+//   .header-list {
+//   }
+//   .header-item {
+//   }
+//   .header-link {
+//   }
+//   .active {
+//   }
+//   .reg-list {
+//   }
+//   .reg-item {
+//   }
+//   .reg-btn {
+//   }
+// }

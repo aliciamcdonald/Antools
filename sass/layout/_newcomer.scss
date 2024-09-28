@@ -1,107 +1,106 @@
 .newcomer {
-    display: flex;
-    gap: 232px;
-    margin-bottom: 195px;
-  }
-  
-  .div {
-  }
-  
-  .newcomer-title {
-    color: rgba(255, 255, 255, 0.9);
-    font-size: 48px;
-    font-weight: 500;
-    line-height: 130%; /* 62.4px */
-    width: 401px;
-    margin-bottom: 30px;
-  }
-  
-  .newcomer-para {
-    color: rgba(255, 255, 255, 0.55);
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 30px; /* 166.667% */
-    margin-bottom: 60px;
-  }
-  
-  .newcomer-btn {
-    width: 198px;
-    height: 58px;
-    flex-shrink: 0;
-    border-radius: 8px;
-    background: #ff6e30;
-    color: #fff;
-    font-family: Poppins;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-  }
-  
-  .newcomer-list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 50px 24px;
-  }
-  
-  .newcomer-item {
-    flex-basis: calc((100% - 24px) / 2);
-    padding: 28px 22px;
-  }
-  
-  .newcomer-item:hover {
-    border-radius: 25px;
-    border: 2px solid rgba(255, 255, 255, 0.05);
-    background-color: rgba(44, 53, 61, 0.2);
-    background-image: url(./img/ellipse.svg);
-    background-repeat: no-repeat;
-    backdrop-filter: blur(25px);
-  }
-  
-  .newcomer-item-img {
-    padding: 10px;
-    border-radius: 7px;
-  }
-  
-  .newcomer-item:hover .newcomer-item-img {
-    background-color: #f7743b8c;
-  }
-  
-  .newcomer-item-title {
-    color: rgba(255, 255, 255, 0.78);
-    font-size: 24px;
-    font-weight: 500;
-    line-height: normal;
-  }
-  
-  .newcomer-item-sutitle {
-    color: rgba(255, 165, 55, 0.55);
-    font-size: 18px;
-    font-weight: 400;
-    line-height: normal;
-  }
-  
-  .newcomer-item-para {
-    color: rgba(255, 255, 255, 0.55);
-    font-family: Poppins;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px; /* 214.286% */
-  }
-  
-  .newcomer-item-heart {
-  }
-  
-  .newcomer-item-folder {
-  }
-  
-  .newcomer-item-btn {
-    color: rgba(255, 255, 255, 0.55);
-    font-family: Poppins;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-  }
-  
+  display: flex;
+  gap: 232px;
+  margin-bottom: 195px;
+}
+
+.div {
+}
+
+.newcomer-title {
+  color: $titleColorPrimary;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 130%; /* 62.4px */
+  width: 401px;
+  margin-bottom: 30px;
+}
+
+.newcomer-para {
+  color: $textColorPrimary;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 30px; /* 166.667% */
+  margin-bottom: 60px;
+}
+
+.newcomer-btn {
+  width: 198px;
+  height: 58px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: $activeColor;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.newcomer-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px 24px;
+}
+
+.newcomer-item {
+  flex-basis: calc((100% - 24px) / 2);
+  padding: 28px 22px;
+}
+
+.newcomer-item:hover {
+  border-radius: 25px;
+  border: 2px solid rgba(255, 255, 255, 0.05);
+  background-color: rgba(44, 53, 61, 0.2);
+  background-image: url(./img/ellipse.svg);
+  background-repeat: no-repeat;
+  backdrop-filter: blur(25px);
+}
+
+.newcomer-item-img {
+  padding: 10px;
+  border-radius: 7px;
+}
+
+.newcomer-item:hover .newcomer-item-img {
+  background-color: $activeColor;
+}
+
+.newcomer-item-title {
+  color: $titleColorSecondary;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.newcomer-item-sutitle {
+  color: $textColorPrimary;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.newcomer-item-para {
+  color: $textColorPrimary;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 214.286% */
+}
+
+.newcomer-item-heart {
+}
+
+.newcomer-item-folder {
+}
+
+.newcomer-item-btn {
+  color: $textColorPrimary;
+  font-family: Poppins;
+  font-size: $textFontSizePrimary;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
