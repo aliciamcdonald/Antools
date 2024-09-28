@@ -60,7 +60,7 @@ img {
   width: 1224px;
 }
 
-.join-bunner-btn, .mask-group-bunner-btn {
+.join-bunner-btn, .mask-group-bunner-btn, .header .reg-btn {
   color: #fff;
   font-size: 16px;
   font-weight: 600;
@@ -126,12 +126,10 @@ img {
   display: flex;
 }
 .header .reg-btn {
-  font-weight: 600;
+  color: rgba(255, 255, 255, 0.55);
   padding: 12px 28px;
-  border-radius: 8px;
   background-color: transparent;
   border: none;
-  color: rgba(255, 255, 255, 0.55);
 }
 .header .reg-btn:hover {
   color: #fdf5ff;
@@ -256,9 +254,9 @@ img {
 
 .popular-item:hover {
   border-radius: 25px;
-  border: 2px solid rgba(255, 255, 255, 0.05);
+  outline: 2px solid rgba(255, 255, 255, 0.05);
   background-color: rgba(44, 53, 61, 0.2);
-  background-image: url(./img/ellipse.svg);
+  background-image: url(../img/ellipse.svg);
   background-repeat: no-repeat;
   -webkit-backdrop-filter: blur(25px);
           backdrop-filter: blur(25px);

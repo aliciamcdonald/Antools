@@ -68,12 +68,19 @@
   }
 
   .reg-btn {
-    font-weight: 600;
+    @extend %button;
+
+    color: rgba(255, 255, 255, 0.55);
     padding: 12px 28px;
-    border-radius: 8px;
     background-color: transparent;
     border: none;
-    color: rgba(255, 255, 255, 0.55);
+
+    // font-weight: 600;
+    // padding: 12px 28px;
+    // border-radius: 8px;
+    // background-color: transparent;
+    // border: none;
+    // color: rgba(255, 255, 255, 0.55);
 
     &:hover {
       color: #fdf5ff;
@@ -81,22 +88,3 @@
     }
   }
 }
-
-// .header {
-//   .header-logo {
-//   }
-//   .header-list {
-//   }
-//   .header-item {
-//   }
-//   .header-link {
-//   }
-//   .active {
-//   }
-//   .reg-list {
-//   }
-//   .reg-item {
-//   }
-//   .reg-btn {
-//   }
-// }
