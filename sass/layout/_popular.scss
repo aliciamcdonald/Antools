@@ -140,19 +140,7 @@ input[type="checkbox"]:checked + svg {
 }
 
 .popular-loadmore-btn {
-  display: block;
-  border: 1px solid #ffffff1a;
-  border-top-left-radius: 18px;
-  border-bottom-right-radius: 18px;
-  padding: 17px 38px;
-  background-color: #1e252b;
-  background-color: transparent;
-
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.5;
-  color: $activeColor;
-  margin: 0 auto;
+  @extend %button;
 }
 .popular-loadmore-btn:hover {
   background-color: $activeColor;

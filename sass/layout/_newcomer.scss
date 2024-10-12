@@ -25,17 +25,7 @@
 }
 
 .newcomer-btn {
-  width: 198px;
-  height: 58px;
-  flex-shrink: 0;
-  border-radius: 8px;
-  background: $activeColor;
-  color: #fff;
-  font-family: Poppins;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
+ @extend %button;
 }
 
 .newcomer-list {
@@ -97,10 +87,5 @@
 }
 
 .newcomer-item-btn {
-  color: $textColorPrimary;
-  font-family: Poppins;
-  font-size: $textFontSizePrimary;
-  font-style: normal;
-  font-weight: 600;
-  line-height: normal;
+  @extend %button;
 }

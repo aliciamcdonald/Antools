@@ -60,7 +60,7 @@ img {
   width: 1224px;
 }
 
-.join-bunner-btn, .mask-group-bunner-btn, .header .reg-btn {
+.join-bunner-btn, .newcomer-item-btn, .newcomer-btn, .popular-loadmore-btn, .mask-group-bunner-btn, .header .reg-btn {
   color: #fff;
   font-size: 16px;
   font-weight: 600;
@@ -374,21 +374,6 @@ input[type=checkbox]:checked + svg {
   background: #ff6e30;
 }
 
-.popular-loadmore-btn {
-  display: block;
-  border: 1px solid rgba(255, 255, 255, 0.1019607843);
-  border-top-left-radius: 18px;
-  border-bottom-right-radius: 18px;
-  padding: 17px 38px;
-  background-color: #1e252b;
-  background-color: transparent;
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.5;
-  color: #ff6e30;
-  margin: 0 auto;
-}
-
 .popular-loadmore-btn:hover {
   background-color: #ff6e30;
   color: #fdf5ff;
@@ -457,20 +442,6 @@ input[type=checkbox]:checked + svg {
   margin-bottom: 60px;
 }
 
-.newcomer-btn {
-  width: 198px;
-  height: 58px;
-  flex-shrink: 0;
-  border-radius: 8px;
-  background: #ff6e30;
-  color: #fff;
-  font-family: Poppins;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-}
-
 .newcomer-list {
   display: flex;
   flex-wrap: wrap;
@@ -522,15 +493,6 @@ input[type=checkbox]:checked + svg {
   font-style: normal;
   font-weight: 400;
   line-height: 30px; /* 214.286% */
-}
-
-.newcomer-item-btn {
-  color: rgba(255, 255, 255, 0.5490196078);
-  font-family: Poppins;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: normal;
 }
 
 .join {
