@@ -26,6 +26,11 @@
 
 .newcomer-btn {
  @extend %button;
+
+ &:hover {
+  background: rgb(114, 114, 216);
+}
+
 }
 
 .newcomer-list {

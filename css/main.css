@@ -85,6 +85,9 @@ img {
   font-size: 22px;
   font-weight: 600;
 }
+.header .header-logo:hover {
+  color: #ff6e30;
+}
 .header .header-logo > svg {
   fill: #ffffff;
   margin-right: 20px;
@@ -211,6 +214,10 @@ img {
   background-color: #283036;
   border: none;
   outline: none;
+}
+
+.mask-group-bunner-btn:hover {
+  background: rgb(114, 114, 216);
 }
 
 .mask-group-social {
@@ -440,6 +447,10 @@ input[type=checkbox]:checked + svg {
   font-weight: 500;
   line-height: 30px; /* 166.667% */
   margin-bottom: 60px;
+}
+
+.newcomer-btn:hover {
+  background: rgb(114, 114, 216);
 }
 
 .newcomer-list {
